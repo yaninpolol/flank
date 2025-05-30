@@ -35,7 +35,7 @@ chrome_options.add_argument("--disable-domain-reliability")
 driver = webdriver.Chrome(seleniumwire_options=options, options=chrome_options)
 
 try:
-    driver.get("https://sepolia-faucet.pk910.de/#/mine/d9a07677-0819-41c9-8f38-408a216c4ee8")
+    driver.get("https://sepolia-faucet.pk910.de/#/mine/34e623c2-98f3-4e4f-8126-2b084263ad18")
     print("Navigated to faucet page.")
 
     # PERHATIAN: time.sleep() yang sangat panjang.
